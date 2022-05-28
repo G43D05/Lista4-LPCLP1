@@ -29,3 +29,18 @@ Questão 09:
 
 Questão 10:  
 [[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao10.c)    
+
+Questão 11:  
+[[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao11.c)    
+
+Questão 12:  
+[[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao12.c)    
+
+Questão 13:  
+[[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao13.c)    
+
+Questão 14:  
+[[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao14.c)    
+
+Questão 15:  
+[[link]](https://github.com/G43D05/Lista4-LPCLP1/blob/main/questao15.c)    
