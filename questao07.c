@@ -1,31 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
-const int MAX = 1000;
 
-int main()
-{
-    int n, i, j, maior, soma, menor, ponto;
-    int v[MAX];
+int main(){
+    int n;
+    double media = .0, soma = .0;
+
     scanf("%d", &n);
-    for (i = 0; i < n; i++){
-        scanf("%d", &v[i]);
-        if (i==0 || v[i]>maior){
-            maior = v[i];
-        }
+    double notas[n], pesos[n];
+
+    for (int i = 0; i < n; i++)
+        scanf("%lf", &notas[i]);
+
+    for (int i = 0; i < n; i++)
+        scanf("%lf", &pesos[i]);
+
+    for (int i = 0; i < n; i++){
+
+        media += (notas[i] * pesos[i]);
+        soma += pesos[i];
+
     }
 
-    for (i = 1; i <= maior; i++){
-        soma = 0;
-        for (j = 0; j < n; j++){
-            soma += abs(i-v[j]);
-        }
-        if (i==1 || soma<menor){
-            menor = soma;
-            ponto = i;
-        }
-    }
+    media = media / soma;
 
-    printf("%d %d\n", menor, ponto);
-  
+    printf("%.2lf", media);
+
     return 0;
 }
